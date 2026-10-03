@@ -1,0 +1,36 @@
+# Local tools, agent sessions and credentials
+.tools/
+.sessions/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Frontend and build outputs
+node_modules/
+dist/
+build/
+coverage/
+
+# Runtime data
+data/
+logs/
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
